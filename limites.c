@@ -25,3 +25,26 @@ int main() {
     unsigned char overflow_char = 255; // Máximo para char
     printf("\nExemplo de overflow:\n");
     printf("Valor inicial eo overflow_char: %d\n", overflow_char);
+
+
+
+    Victor:
+    
+
+
+
+
+
+
+
+ // Demonstrando atribuição de valores fora dos limites de variáveis
+    
+    printf("\nExemplo de valor fora do limite:\n");
+    short int numero_fora_do_limite = 32768; // Limite de short int é 32767
+    printf("Valor atribuído fora do limite (short int): %d\n", numero_fora_do_limite);
+    unsigned int unsigned_fora_limite = UINT_MAX + 1; // Extrapolando limite do unsigned int
+    printf("Valor atribuído fora do limite (unsigned int): %u\n", unsigned_fora_limite);
+ 
+    system("pause");
+    return 0;
+}

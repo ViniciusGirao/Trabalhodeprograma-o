@@ -32,3 +32,34 @@ int main() {
         printf("Número de mensagens inválidas.\n");
         return 1;
     }
+
+        Victor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        char hex_pair[3] = {mensagem[i], mensagem[i + 1], '\0'};
+            int ascii_value = (int)strtol(hex_pair, NULL, 16);
+            if (func_val(i/2 + 1, b) != 0) {
+                printf("%c", ascii_value);
+            }
+        }
+        printf("\n");
+    }
+    
+    system("PAUSE");
+    return 0;
+}
