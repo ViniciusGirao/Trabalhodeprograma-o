@@ -8,3 +8,13 @@ DESAFIO:
 
 //Escreva o codigo embaixo dessa linha de texto:
 
+#include <stdio.h>
+
+int main(){
+
+    printf("Hello");
+
+
+    return 0;
+}
+
