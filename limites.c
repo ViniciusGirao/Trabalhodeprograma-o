@@ -26,8 +26,6 @@ int main() {
     printf("\nExemplo de overflow:\n");
     printf("Valor inicial eo overflow_char: %d\n", overflow_char);
 
-
-
     overflow_char += 1; // Tentativa de ultrapassar o limite
     printf("Valor após overflow: %d\n", overflow_char); // O valor retorna ao mínimo possível, ou seja, 0.
     
