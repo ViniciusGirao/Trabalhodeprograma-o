@@ -29,6 +29,20 @@ for (i = 0; i < casos_de_teste; i++) {
         scanf("%d", &b); // Lê a base
         printf("Escreva a mensagem cifrada (ex:68656C6C6F): ");
         scanf("%s", mensagem);
+ 
+        // Nessa parte sera processada a mensagem
+        for (j = 0; j < strlen(mensagem); j += 2) {
+            // Cria uma string com 2 caracteres
+            char dois_chars[3] = { mensagem[j], mensagem[j + 1], '\0' }; 
+            int valor_decimal = (int)strtol(dois_chars, NULL, 16); // Converte de hexadecimal para decimal
 
-
-carolina
+            if (valor_da_funcao(valor_decimal, b) != 0) {
+                putchar(valor_decimal); // Imprime o caractere se func_val não retornar 0
+            }
+        }
+        printf("\n"); // Adiciona uma nova linha após cada caso de teste
+    }
+    
+    system("PAUSE");
+    return 0;
+}
