@@ -32,4 +32,9 @@ carolina
 
 
 
-victor
+for (i = 0; i < casos_de_teste; i++) {
+       
+        printf("Escreva qual é a base (ex: 16 para hexadecimal): ");
+        scanf("%d", &b); // Lê a base
+        printf("Escreva a mensagem cifrada (ex:68656C6C6F): ");
+        scanf("%s", mensagem);
