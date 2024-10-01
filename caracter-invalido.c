@@ -12,21 +12,21 @@ int valor_da_funcao(int x, int b) {
 }
 
 #endif /* REMOVE_H */
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+        int casos_de_teste;
+	int i = 0;
+	int j = 0;
+    int b;
+    char mensagem[100];
+    
+    printf("Digite o número de casos de teste: ");
+    scanf("%d", &casos_de_teste); 
 
 
 
 
-
-
-Carolina
-
-
-
-
-
-
-
-emanoel
+carolina
 
 
 
