@@ -31,15 +31,7 @@ int main() {
     overflow_char += 1; // Tentativa de ultrapassar o limite
     printf("Valor após overflow: %d\n", overflow_char); // O valor retorna ao mínimo possível, ou seja, 0.
     
-
-
-
-
-
-
-
- // Demonstrando atribuição de valores fora dos limites de variáveis
-    
+   // Demonstrando atribuição de valores fora dos limites de variáveis 
     printf("\nExemplo de valor fora do limite:\n");
     short int numero_fora_do_limite = 32768; // Limite de short int é 32767
     printf("Valor atribuído fora do limite (short int): %d\n", numero_fora_do_limite);
