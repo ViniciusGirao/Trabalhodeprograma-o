@@ -33,7 +33,19 @@ int main() {
         return 1;
     }
 
-        Victor
+        for (m = 0; m < numero_de_mensagens ; m++) {
+        int i = 0;
+		double b;
+        char mensagem[101];
+        printf("Escreva o valor de b: ");
+        scanf("%lf", &b);
+        printf("Escreva a mensagem em hexadecimal (máx 100 caracteres): ");
+        scanf("%s", mensagem);
+        
+        for (i = 0; i < strlen(mensagem); i += 2) {
+            if (i + 1 >= strlen(mensagem) || mensagem[i] == '0') {
+                break;
+            }
 
 
 
